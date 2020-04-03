@@ -1,0 +1,292 @@
+#title {
+    background-color: #5b5656;
+    position: relative;
+}
+
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    margin-left: 2%
+}
+
+.navbar-nav {
+    margin-right: 2%;
+
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.title-container {
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+h1 {
+    font-family: 'Montserrat;', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    padding: 20% 0 0 0;
+    text-align: left;
+    color: white;
+}
+
+.title-img {
+    z-index: 0;
+    text-align: center;
+    width: 55%;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    transform: rotate(15deg);
+    position: absolute;
+
+}
+
+.title-btn {
+    padding-top: 10%;
+    text-align: left;
+    margin-bottom: 15%;
+    width:auto;
+    
+}
+
+.title-btn1 {
+    margin-right: 5%;
+}
+
+.title-btn2 {
+    margin-left: 5%;
+}
+
+.fab {
+    padding-right: 10px;
+}
+
+/*features section*/
+@media (max-width:800px){
+    .title-btn{
+        
+        padding-left:auto;
+        padding-right: auto;
+        text-align: center;
+        margin-bottom: 0;
+        height:auto;
+    }
+    
+    h1{
+        padding-top: 10%;
+        font-size: 50px;
+        text-align: center;
+    }
+    .title-img{
+        position:static;
+        transform: rotate(0);
+        width:40%;
+        text-align: center;
+    }
+}
+
+#features {
+    position: relative;
+    z-index: 1;
+    background-color: #f3f3f3;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.feature{
+    z-index: 1
+        ;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-top: 4%;
+    color: #5B5656;
+}
+
+.features-font {
+    color: #5B5656;
+}
+
+.fas {
+    color: #FFC107;
+}
+
+/*feedbacks*/
+
+#testimonials {
+
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 3%
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+}
+
+em {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.testimonial-container {
+    background-color: #5B5656;
+    text-align: center;
+}
+
+.carosal,
+.carosal_2 {
+    margin: 0 20% 10% 20%;
+}
+
+.press_img {
+    width: 20%;
+    padding: 0 3%;
+    padding-bottom: 5%;
+}
+
+@media (max-width:800px){
+    #testimonials h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 2;
+    }
+    
+}
+
+/*pricing*/
+
+#pricing {
+    padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #F3F3F3;
+
+}
+
+#pricing .row{
+    padding:0 5%;   
+}
+
+.card-header {
+    background-color: #5B5656;
+    color: white;
+}
+
+#pricing h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#pricing p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    line-height: 2 font-size: 10px;
+}
+
+.pricing_sub {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    line-height: 2;
+    padding-bottom: 3%;
+    font-size: 20px;
+}
+
+#pricing .container-fluid {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+@media (max-width:800px){
+    #pricing .container-fluid{
+        padding: 0 10%;
+        padding-bottom: 5%;
+    }
+    #pricing .row{
+        text-align: center;
+        padding: 0 auto;
+    }
+    #pricing .col-lg-4{
+        margin:0 auto 3% auto;
+        width:90%;
+        
+    }
+}
+/*cta*/
+
+#cta {
+    text-align: center;
+    background-color: #5B5656;
+}
+
+#cta h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 4%
+}
+
+.cta-btn {
+    padding-bottom: 5%;
+}
+
+.cta-btn1 {
+    margin-right: 2.5%
+}
+
+.cta-btn2{
+    margin-left: 2.5%
+}
+
+@media (max-width:800px){
+    #cta h3{
+        font-size: 35px;
+    }
+    
+}
+
+/*footer*/
+
+#footer {
+    padding-top: 5%;
+    background-color: #F3F3F3;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#footer p {
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+#footer .fas,
+#footer .fab {
+    color: black;
+    padding-left: 1%;
+    padding-right: 1%;
+}
